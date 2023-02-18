@@ -1,0 +1,80 @@
+body {
+    text-align: center;
+    color: black;
+    font-family: cursive;
+    margin: 40px;
+    background-color: lightsalmon;
+    box-shadow: 0px 0px 15px 4px brown;
+    
+}
+.context {
+    background-color: brown;
+    margin: 20px;
+}    
+p.pins {
+    background-color: black;
+    color: white;
+    display: block;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: -20px;
+    padding: 10px;
+
+}    
+
+.titles {
+    background-color: lightsalmon;
+    color: brown;
+    font-size: 20px;
+    display: block;
+    margin-left: 30%;
+    margin-right: 30%;
+    box-shadow: 0px 5px 15px 3px black;
+}
+table {
+    background-color:  #ec9a9ac0;
+    color: brown;
+    position: absolute;
+    bottom: 0;   
+    width: 100%;
+    height: 60px;
+}
+img {
+    width: 100%;
+    height: 100%; 
+    display: block; 
+    max-height: 600px;
+    object-fit: cover;
+}
+.colomn1 {
+    float: left;
+    background-color: lightsalmon;
+    width: 33%;
+    margin-top: 20px;
+}
+.colomn2 {
+    float: right;
+    background-color: brown;
+    width: 63%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-shadow: 0px 0px 5px lightsalmon; 
+}
+.colomn1 h2 {
+    text-transform: uppercase;
+    font-size: 35px;
+    border-bottom: 5px solid brown;
+    padding-bottom: 10px;
+}
+.colomn2 h3 {
+    text-transform: uppercase;
+    font-size: 35px;
+    border-bottom: 5px solid lightsalmon;
+    padding-bottom: 4px;
+}
+.listspec p {
+    border: 2px solid brown;
+    padding: 8px 0;
+    margin: 5px;
+    
+}
