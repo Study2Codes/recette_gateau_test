@@ -2,42 +2,47 @@ body {
     text-align: center;
     color: black;
     font-family: cursive;
-    margin: 40px;
+    margin: 60px;
     background-color: lightsalmon;
-    box-shadow: 0px 0px 15px 4px brown;
-    
+    box-shadow: 0px 0px 15px 4px brown;    
+}
+h1 {
+    text-align: center;
+    color: lightsalmon;
 }
 .context {
     background-color: brown;
-    margin: 20px;
+    margin: 30px;
 }    
 p.pins {
-    background-color: black;
-    color: white;
-    display: block;
-    margin-left: 40%;
-    margin-right: 40%;
+    background-color: lightsalmon;
+    color: brown;
+    margin-left: 35%;
+    margin-right: 35%;
     margin-top: -20px;
     padding: 10px;
-
 }    
-
 .titles {
     background-color: lightsalmon;
     color: brown;
-    font-size: 20px;
+    font-size: 22px;
     display: block;
-    margin-left: 30%;
-    margin-right: 30%;
+    width: 80%;
+    margin-right: 60%;
+    overflow: visible;
     box-shadow: 0px 5px 15px 3px black;
 }
 table {
     background-color:  #ec9a9ac0;
     color: brown;
+    font-size: 20px;
     position: absolute;
     bottom: 0;   
     width: 100%;
     height: 60px;
+}
+td {
+    font-size: 16px;
 }
 img {
     width: 100%;
@@ -49,32 +54,84 @@ img {
 .colomn1 {
     float: left;
     background-color: lightsalmon;
+    background-size: cover;
     width: 33%;
     margin-top: 20px;
 }
 .colomn2 {
     float: right;
     background-color: brown;
-    width: 63%;
+    width: 60%;
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     text-shadow: 0px 0px 5px lightsalmon; 
+    text-align: left;
 }
 .colomn1 h2 {
+    color: brown;
     text-transform: uppercase;
-    font-size: 35px;
+    font-size: 22px;
     border-bottom: 5px solid brown;
     padding-bottom: 10px;
 }
 .colomn2 h3 {
+    color: lightsalmon;
+    text-align: center;
     text-transform: uppercase;
-    font-size: 35px;
+    font-size: 22px;
     border-bottom: 5px solid lightsalmon;
-    padding-bottom: 4px;
+
 }
 .listspec p {
     border: 2px solid brown;
     padding: 8px 0;
     margin: 5px;
     
+}
+
+/* Style pour phone */
+@media only screen and (max-width: 768px){
+   body {
+      margin: 10px;
+      font-size: 10px;
+    }
+    div.context {
+        max-width: 700px;
+    }
+    h1 {
+        font-size: 15px;
+    }
+    .titles {
+        font-size: 12px;
+
+    }
+    table {
+        font-size: 10px ;
+        height: 40px;
+    }
+    td {
+        font-size: 8px;
+    }
+    .colomn2 {
+        font-size: 10px;
+        width: 100%;   
+    }
+    .colomn1 {
+        width: 100%;
+    }
+    .colomn1 h2 {
+        font-size: 12px;
+        padding-bottom: 0;
+    }
+    .colomn2 h3 {
+        text-align: center;
+        font-size: 12px;
+    
+        
+    }
+    .listspec p {
+        padding: 2px;
+        margin: 2px;
+        font-size: 10px;
+    }
 }
